@@ -4,10 +4,9 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   
-  body {
-    margin-top: 100px;
-  }
-  
+ body {
+  scroll-behavior: smooth;
+ }
   h1,
   h2,
   h3 {
@@ -36,7 +35,19 @@
     line-height: 1.5;
     text-align: center;
   }
- 
+ .mt-6 {
+  margin-top: 4rem !important;
+ }
+.primary-link {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+  margin: 20px;
+    border-radius: 4px;
+    padding: 20px 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
   .navigation-links {
     display: flex;
     margin-top: 40px;
