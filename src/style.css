@@ -4,6 +4,9 @@
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   }
   @media (max-width: 768px) {
+    body {
+      margin-bottom: 100px 0;
+    }
     h1 {
       font-size: 40px !important;
     }
